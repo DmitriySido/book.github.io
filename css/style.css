@@ -2161,9 +2161,9 @@ body{
 
   /*Section*/
   .section__subject {
-    font-size: calc(var(--index) * 1.6);
+    font-size: calc(var(--index) * 1.4);
   } 
-
+я
   .section__suptitle {
     font-size: calc(var(--index) * 1.8);
   }
@@ -2179,9 +2179,9 @@ body{
   }
   
   .authors-projects__subject-top {
-    font-size: calc(var(--index) * 1.9);
+    font-size: calc(var(--index) * 1.7);
     margin-bottom: -10px;
-  }
+  } 
 
   /**/
   .authors-projects__title {
@@ -2260,7 +2260,7 @@ body{
     }
 
     .section__subject {
-      font-size: calc(var(--index) * 1.6);
+      font-size: calc(var(--index) * 1.5);
     }
 
     .presentation__title-small {
@@ -2334,6 +2334,11 @@ body{
     .footer__contacts {
       width: 77%;
     }
+
+    .authors-projects__subject-top, .invitation__subject-top {
+      font-size: calc(var(--index) * 1.6);
+      margin-bottom: -7px;
+    }
     
   }
 }
@@ -2363,7 +2368,7 @@ body{
 
     .authors-projects__subject-top, .invitation__subject-top {
       font-size: calc(var(--index) * 1.6);
-      margin-bottom: -7px;
+      margin-bottom: -13px;
     }
 
     .invitation__form-subject {
