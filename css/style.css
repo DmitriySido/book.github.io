@@ -2163,10 +2163,15 @@ body{
   .section__subject {
     font-size: calc(var(--index) * 1.4);
   } 
-я
+
   .section__suptitle {
     font-size: calc(var(--index) * 1.8);
   }
+
+  .presentation__subject{
+    font-size: calc(var(--index) * 1.9);
+  }
+
   
   /**/
   .what-is__suptitle {
@@ -2263,12 +2268,12 @@ body{
       font-size: calc(var(--index) * 1.5);
     }
 
-    .presentation__title-small {
-      padding-top: 415px;
+    .presentation__subject {
+      font-size: calc(var(--index) * 1.9);
     }
 
-    .presentation__subject{
-      font-size: calc(var(--index) * 1.7);
+    .presentation__title-small {
+      padding-top: 415px;
     }
 
     .presentation__suptitle {
