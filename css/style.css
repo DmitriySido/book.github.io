@@ -322,10 +322,10 @@ body{
 .about-book__item-icon{
   display: block;
   position: absolute;
-  top: -70px;
-  left: -90px;
-  width: 70px;
-  height: 129px;
+  top: -30px;
+  left: -70px;
+  width: 50px;
+  height: 91px;
 }
 
 
@@ -917,12 +917,6 @@ body{
     font-size: calc(var(--index) * 1.2);
   }
 
-  .about-book__item-icon{
-    width: 55px;
-    top: -40px;
-    left: -70px;
-  }
-
   .left {
     right: 25px;
     top: -90px;
@@ -1483,10 +1477,9 @@ body{
     margin-bottom: 35px;
   }
 
-  .about-book__item-icon {
-    width: 45px;
-    top: -27px;
-    left: -62px;
+  .about-book__item-icon{
+    top: -45px;
+    left: -55px;
   }
 
   .contents {
@@ -1741,8 +1734,8 @@ body{
   }
 
   .what-is__subject__icon {
-    width: 25px;
-    height: 45px;
+    width: 45px;
+    height: 64px;
   }
 
   .video__wrapper{
@@ -1783,6 +1776,11 @@ body{
   .about-book__subject::before {
     top: 1px;
     left: 30%;
+  }
+
+  .about-book__item-icon{
+    width: 45px;
+    height: 64px;
   }
 
   .about-book__list {
@@ -1994,7 +1992,7 @@ body{
 
   /*Sectiin*/
   .section__subject{
-    font-size: calc(var(--index) * 2.5);
+    font-size: calc(var(--index) * 2);
   }
 
   /**/
@@ -2293,6 +2291,10 @@ body{
       width: 67%;
     }
 
+    .what-is__item-subject {
+      font-size: calc(var(--index) * 2.1);
+    }
+
     .what-is__item__suptitle {
       font-size: calc(var(--index) * 1.2);
     }
@@ -2300,10 +2302,6 @@ body{
     .what-is__button {
       font-size: calc(var(--index) * 1.1);
       padding: 23px 0px;
-    }
-
-    .what-is__item-subject {
-      font-size: calc(var(--index) * 2.2);
     }
 
     /**/
