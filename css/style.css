@@ -2277,10 +2277,10 @@ body{
     }
 
     /**/
-    .about-book__item-icon {
+    /* .about-book__item-icon {
       width: 41px;
       height: 91px;
-    }
+    } */
 
     .about-book__text {
       font-size: calc(var(--index) * 1.25);
@@ -2515,7 +2515,7 @@ body{
 
     .button {
       font-size: calc(var(--index) * 1.1);
-  }
+    }
 
     .footer__contacts {
       width: 82%;
